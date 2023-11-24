@@ -9,7 +9,19 @@ html{
 }
 header{
     height: 87px;
-    background-color: beige;
+    word-spacing: 150px;
+    text-align: left;
+}
+.thd{
+  padding-top: 25.5px;
+  font-size: 1.45em;
+  padding-left: 90px;
+}
+.tlou{
+  background-color: rgb(151, 172, 191);
+}
+.pesquisa{
+  
 }
 .cont{
   display: flex;
