@@ -1,0 +1,91 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+  font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px
+}
+header{
+    height: 87px;
+    background-color: beige;
+}
+.cont{
+  display: flex;
+}
+body{
+  background-image: url(assets/images/tlou/background.jpg); 
+  background-repeat: no-repeat; 
+  background-position: 0px 0px; 
+  background-attachment: fixed;
+  background-size: auto;
+
+}
+aside > img{
+  max-width:230px;
+  max-height:512px;
+  width: auto;
+  height: auto;
+}
+span{
+  color: lightgrey;
+}
+aside{
+  padding-top: 10px;
+  align-self: right;
+  width: 240px;
+  height: 240px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    font-size: 1.15em;
+    color: #eee;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  color: #eee;
+}
+.atores{
+  padding-top: 35px;
+  font-size: 1.45em;
+  color: #eee;
+}
+.card{
+  display: flex;
+}
+.arr{
+  display: flex; 
+  flex-direction: column;
+  align-items: right;
+  justify-content: left;
+  max-width:100px;
+  max-height:420px;
+  width: auto;
+  height: auto;
+}
+.card>img {
+  max-width: 128px;
+  max-height: 512px;
+  width: auto;
+  height: auto;
+  border-radius: 60%;
+}
+h4{
+  padding-left: 40px;
+  color: #eee;
+}
+.caixa{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 5px;
+}
+h3{
+  color: #eee;
+}
+.embed{
+  padding-top: 15px;
+  font-size: 1.45em;
+}

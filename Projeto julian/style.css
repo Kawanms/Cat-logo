@@ -1,0 +1,97 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin: 0;
+}
+header{
+    background-color: rgba(170, 151, 191, 3);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 250px;
+    border-bottom: 3.5px solid;
+}
+body{
+  background-image: url(https://i.pinimg.com/originals/9f/d7/1e/9fd71e229eafd83f5a92193c2d68aa2a.jpg); 
+  background-repeat: no-repeat; 
+  background-position: 0px 0px; 
+  background-attachment: fixed;
+  background-size: 1920px 1080px;
+  
+}
+.titulo{
+  text-align: justify;
+}
+.texto{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 90%;
+  width: 45%;
+}
+main{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  
+}
+span{
+  color: #333;
+}
+.Imagem{
+  margin-right: 70px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.atores{
+  display: flex; 
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-left: 45px;
+  
+}
+.card > img {
+  max-width:128px;
+  max-height:512px;
+  width: auto;
+  height: auto;
+  border-radius: 5%;
+}
+.atr{
+  margin-left: 45px;
+  font-size: 3.5em;
+}
+.arr{
+  display: flex; 
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-left: 45px;
+  max-width:128px;
+  max-height:512px;
+  width: auto;
+  height: auto;
+}
+.card{
+  display: flex;
+}
+.Mat{
+  margin-left: 39px;
+}
+.trailers{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-left: 45px;
+  font-size: 3.5em;
+}
+.atrT{
+  font-size: 3.5em;
+}
