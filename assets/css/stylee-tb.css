@@ -1,0 +1,176 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+  font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px
+}
+header{
+    height: 87px;
+    word-spacing: 150px;
+    text-align: left;
+}
+.thd{
+  padding-top: 25.5px;
+  font-size: 1.45em;
+  padding-left: 90px;
+}
+.tlou{
+  background-color: rgb(224, 84, 84);
+  color: #eee;
+}
+.cont{
+  display: flex;
+}
+body{
+  background-image: url(../images/the_boys/background.png); 
+  background-repeat: no-repeat; 
+  background-position: -320px -90px; 
+  background-attachment: fixed;
+  background-size: 1920px 1080px;
+
+}
+h5{
+  color:#eee
+}
+aside > img{
+  max-width:230px;
+  max-height:512px;
+  width: auto;
+  height: auto;
+}
+span{
+  color: lightgrey;
+}
+aside{
+  padding-top: 10px;
+  align-self: right;
+  width: 240px;
+  height: 240px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    font-size: 1.15em;
+    color: #eee;
+}
+.texto-v{
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  font-size: 1.15em;
+  color: #ffffff;
+  width: 670px;
+  height: 300px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  color: #eee;
+}
+.atores{
+  padding-top: 70px;
+  font-size: 1.45em;
+  color: #eee;
+}
+.card{
+  display: flex;
+}
+.arr{
+  display: flex; 
+  flex-direction: column;
+  align-items: right;
+  justify-content: left;
+  max-width:100px;
+  max-height:420px;
+  width: auto;
+  height: auto;
+}
+.card>img {
+  max-width: 170px;
+  max-height: 512px;
+  width: auto;
+  height: auto;
+  border-radius: 60%;
+}
+h4{
+  padding-left: 40px;
+  color: #eee;
+}
+.caixa{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 5px;
+}
+h3{
+  color: #eee;
+}
+.embed{
+  padding-top: 15px;
+  font-size: 1.45em;
+  display: flex;
+  flex-direction: column;
+}
+.search-box {
+  position: absolute;
+  top: 7%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  background: #D90D17;
+  height: 40px;
+  padding: 10px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  width: 0;
+  transition: .5s;
+  font-family: 'Open Sans';
+}
+
+::-webkit-input-placeholder{
+  color: #eee;
+}
+.search-btn {
+  width: 20px;
+  height: 40px;
+  border-radius: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+  background: rgb(223, 37, 37);
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  transition: all 0.75s;
+  color: rgba(222, 73, 73, 0.779);
+}
+.disp{
+  font-size: 0.85em;
+}
