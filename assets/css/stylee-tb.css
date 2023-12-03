@@ -118,7 +118,7 @@ h3{
   top: 7%;
   left: 80%;
   transform: translate(-50%,-50%);
-  background: #D90D17;
+  background: #bd0c14;
   height: 40px;
   padding: 10px;
   border-radius: 40px;
@@ -160,7 +160,7 @@ h3{
 }
 
 .search-box:hover > .search-btn {
-  background: rgb(223, 37, 37);
+  background: rgb(241, 42, 42);
 }
 
 a{
@@ -174,3 +174,40 @@ a:hover{
 .disp{
   font-size: 0.85em;
 }
+#myInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 0px solid #ddd;
+  margin-bottom: 12px;
+  
+}
+
+#myUL {
+  padding-left: 1025px;
+  padding-right: 60px;
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  
+}
+
+#myUL li a {
+  border: 3px solid #f40a0a;
+  margin-top: -1px;
+  align-items:center ;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 12px 20px 12px 60px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: orangered;
+}
+
