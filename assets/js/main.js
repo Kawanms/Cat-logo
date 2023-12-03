@@ -1,13 +1,25 @@
-function search(){
-    let input = document.getElementById('seearchbar').value
-    input = input.toLoweerCase()
-    let x = document.getElementsByClassName('catalogo')
-
-    for(i=0; i < x.length; i++){
-        if(!x[i].innerHTML.toLowerCase().includes(input)){
-            x[i].computedStyleMap.display = "none"
-        }else{
-            x[i].computedStyleMap.display = "list-item"
-        }
+ function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+  
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
     }
-}
+  }
+  
+  function showList() {
+    document.getElementById("myUL").style.display = "block";
+  }
+  
+  document.getElementById('myInput').addEventListener('input', function(e) {
+    myFunction();
+  });
