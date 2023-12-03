@@ -172,3 +172,42 @@ a:hover{
 h5{
   color:#eee
 }
+
+#myInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 0px solid #ddd;
+  margin-bottom: 12px;
+  
+}
+
+#myUL {
+  padding-left: 1025px;
+  padding-right: 10px;
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  
+}
+
+#myUL li a {
+  border: 3px solid rgb(168, 134, 227);
+  margin-top: -5px;
+  align-items:center ;
+  background-color: rgba(134, 84, 222, 0.779);
+  border-radius: 2%;
+  padding: 12px 20px 12px 60px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: rgb(86, 4, 109);
+}
+
