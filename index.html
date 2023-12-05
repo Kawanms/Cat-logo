@@ -7,20 +7,86 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Catálogo</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style-i.css">
 </head>
 
 <body>
-  <header>
-    <p>Início Popular Todos</p>
-  </header>
-  <h1>Adicionados Recentemente</h1>
-  <button><a href="tlou teste.html">The Last of Us</a></button>
-  <button><a href="The boys.html">The Boys</a></button>
-  <button><a href="Vingadores ultimato.html">Vingadores</a></button>
-  <button><a href="Whiplash.html">Whiplash</a></button>
-  <button><a href="Loki.html">Loki</a></button>
-  <button><a href="Loki.html"></a></button>
+      <header class="tlou">
+        <a href="index.html"><p class="thd">Inicio</p></a>
+        <a href="#novo" ><p class="thd">Novo</p></a>
+        <a href="#popular" class="thd">Populares</a>
+    </header><div class="search-box">
+      <input id="searchbar" type="text" class="search-txt" placeholder="Pesquisar">
+      <a href="#" class="search-btn">
+          <img src="assets/images/geral/loupe.png" alt="Lupa" height="20" width="20">
+      </a>
+  </div>
+  <main>
+    <section class="des">
+      <img src="assets/images/vingadores/background.jpg" alt="Vingadores">
+      <h2 class"insp">"Mesmo que a chance<br> seja pequena, nós devemos<br> isso a todos que não estão<br> nesta sala, uma tentativa."</h2>
+    </section>
+    <div class="categoria">
+      <h3>Ordem Alfabética</h3>
+    </div>
+    <section class="fotos">
+      <div class="card">
+        <a href="Loki.html"><img src="assets/images/geral/poster loki.png" alt="Loki"></a>
+      </div>
+      <div class="card">
+        <a href="The boys.html"><img src="assets/images/geral/the_boys_poster.png" alt="The Boys"></a>
+      </div>
+      <div class="card">
+        <a href="The last of us.html"><img src="assets/images/geral/tlou_poster.png" alt="tlou"></a>
+      </div>
+      <div class="card">
+        <a href="Vingadores ultimato.html"><img src="assets/images/geral/vingadores_poster.png" alt="vingadores"></a>
+      </div>
+      <div class="card">
+        <a href="whiplash.html"><img src="assets/images/geral/whiplash_poster.png" alt="vingadores"></a>
+      </div>
+    </section>
+    <div class="categoria">
+      <h3 id="popular">Populares</h3>
+    </div>
+    <section class="fotos">
+      <div class="card">
+        <a href="Vingadores ultimato.html"><img src="assets/images/geral/vingadores_poster.png" alt="vingadores"></a>
+      </div>
+      <div class="card">
+        <a href="Loki.html"><img src="assets/images/geral/poster loki.png" alt="Loki"></a>
+      </div>
+      <div class="card">
+        <a href="The last of us.html"><img src="assets/images/geral/tlou_poster.png" alt="tlou"></a>
+      </div>
+      <div class="card">
+        <a href="The boys.html"><img src="assets/images/geral/the_boys_poster.png" alt="The Boys"></a>
+      </div>
+      <div class="card">
+        <a href="whiplash.html"><img src="assets/images/geral/whiplash_poster.png" alt="whiplash"></a>
+      </div>
+    </section>
+    <div class="categoria">
+      <h3 id="novo">Novos </h3>
+    </div>
+    <section class="fotos">
+      <div class="card">
+        <a href="Loki.html"><img src="assets/images/geral/poster loki.png" alt="Loki"></a>
+      </div>
+      <div class="card">
+        <a href="The last of us.html"><img src="assets/images/geral/tlou_poster.png" alt="tlou"></a>
+      </div>
+      <div class="card">
+        <a href="Vingadores ultimato.html"><img src="assets/images/geral/vingadores_poster.png" alt="vingadores"></a>
+      </div>
+      <div class="card">
+        <a href="The boys.html"><img src="assets/images/geral/the_boys_poster.png" alt="The Boys"></a>
+      </div>
+      <div class="card">
+        <a href="whiplash.html"><img src="assets/images/geral/whiplash_poster.png" alt="vingadores"></a>
+      </div>
+    </section>
+  </main>
   <script src="assets/js/main.js"></script>
 </body>
 </html
